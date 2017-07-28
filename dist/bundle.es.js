@@ -4559,6 +4559,6 @@ riot$1.tag2('buttons-bar', '<button aria-label="1" class="button-one {selected: 
 
 document.addEventListener('DOMContentLoaded', () => {
 	mount$$1('buttons-bar', {store});
-	// dispatchInit(); // comment this in order to see the second issue
+	dispatchInit(); // comment this in order to see the second issue
 });
 //# sourceMappingURL=bundle.es.js.map
