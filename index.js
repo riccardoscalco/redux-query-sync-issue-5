@@ -5,5 +5,5 @@ import './src/tags/buttons-bar.tag';
 
 document.addEventListener('DOMContentLoaded', () => {
 	mount('buttons-bar', {store});
-	// dispatchInit(); // comment this in order to see the second issue
+	dispatchInit(); // comment this in order to see the second issue
 });
